@@ -1,0 +1,11 @@
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\BackendApplication.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\config\CorsConfig.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\controller\FormController.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\entities\ContactForm.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\entities\ServiceProvider.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\entities\Subscriber.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\repository\ContactFormRepository.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\repository\ServiceProviderRepository.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\repository\SubscriberRepository.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\service\EmailService.java
+C:\Users\ashok\OneDrive\Desktop\New Folder\backend\src\main\java\com\chusit\backend\service\SubscriberService.java

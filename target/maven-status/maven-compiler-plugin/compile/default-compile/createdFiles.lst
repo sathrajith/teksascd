@@ -1,0 +1,12 @@
+com\chusit\backend\config\CorsConfig$1.class
+com\chusit\backend\repository\ContactFormRepository.class
+com\chusit\backend\repository\SubscriberRepository.class
+com\chusit\backend\service\SubscriberService.class
+com\chusit\backend\config\CorsConfig.class
+com\chusit\backend\entities\ContactForm.class
+com\chusit\backend\repository\ServiceProviderRepository.class
+com\chusit\backend\BackendApplication.class
+com\chusit\backend\controller\FormController.class
+com\chusit\backend\entities\Subscriber.class
+com\chusit\backend\entities\ServiceProvider.class
+com\chusit\backend\service\EmailService.class
