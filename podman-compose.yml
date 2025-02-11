@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root  # ✅ Keep only this for root access
+      MYSQL_DATABASE: chusit_db
+      MYSQL_USER: chusit_user  # ✅ Create a new regular user
+      MYSQL_PASSWORD: chusit_pass  # ✅ Password for the new user
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  backend:
+    build: .
+    container_name: chusit_backend
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql_db:3306/chusit_db
+      SPRING_DATASOURCE_USERNAME: chusit_user
+      SPRING_DATASOURCE_PASSWORD: chusit_pass
+    ports:
+      - "8080:8080"
+
+volumes:
+  mysql_data:
